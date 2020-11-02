@@ -1,6 +1,6 @@
 .App {
   height: calc(100vh - 90px);
-  background-color: #13131313;
+  background-color: #131313;
 
 }
 
@@ -10,8 +10,13 @@
   min-height: 100%;
 
 }
+.navBar{
+  width: 200px;
+  height: 100%;
+  background-color: #040404;
+}
 .misicControls{
-  background-color: #28282828;
+  background-color: #282828;
   text-align: center;
   height: 90px;
   display: flex;
