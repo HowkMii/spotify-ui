@@ -1,3 +1,5 @@
+
+
 .App {
   height: calc(100vh - 90px);
   background-color: #131313;
@@ -14,6 +16,7 @@
 .navBar{
   width: 200px;
   height: 100%;
+  padding: 10px;
   background-color: #040404;
   .logo{
     
@@ -26,8 +29,12 @@
   
     }
     ul{
+      margin: 0;
+      padding: 0;
       li{
-        color: white;
+        
+        background-color: white;
+        list-style-type:none ;
       }
     }
     
