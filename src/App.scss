@@ -35,7 +35,15 @@
         
         background-color: white;
         list-style-type:none ;
+        border-radius: 5px;
+        padding: 1rem;
+        cursor: pointer;
+        transition:  all 0.3s ea;
+        &:hover{
+          color: #faf6e9;
+        }
       }
+
     }
     
   }
