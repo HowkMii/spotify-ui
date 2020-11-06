@@ -39,6 +39,9 @@
         padding: 1rem;
         cursor: pointer;
         transition:  all 0.3s ease-in-out;
+        &:active{
+          background-color: #040404 ;
+        }
 
         &:hover{
           color: #faf6e9;
