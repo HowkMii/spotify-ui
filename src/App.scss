@@ -25,31 +25,28 @@
       p{
         fill: white;
       }
-
-  
-    }
-    ul{
-      margin: 0;
-      padding: 0;
-      li{
-        
-        background-color: white;
-        list-style-type:none ;
-        border-radius: 5px;
-        padding: 1rem;
-        cursor: pointer;
-        transition:  all 0.3s ease-in-out;
-        &:active{
-          background-color: #040404 ;
-        }
-
-        &:hover{
-          color: #faf6e9;
-        }
+    } 
+  }
+  ul{
+    margin: 0;
+    padding: 0;
+    li{
+      
+      color: white;
+      list-style-type:none ;
+      border-radius: 5px;
+      padding: 1rem;
+      cursor: pointer;
+      transition:  all 0.3s ease-in-out;
+      &:active{
+        background-color: #040404 ;
       }
 
+      &:hover{
+        color: #faf6e9;
+      }
     }
-    
+
   }
 }
 .misicControls{

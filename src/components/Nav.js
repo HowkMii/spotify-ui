@@ -9,7 +9,7 @@ const Nav = () => {
 
             </div>
             <ul>
-              <li>
+              <li className ="active">
                 Home
               </li>
               <li>
