@@ -38,7 +38,8 @@
         border-radius: 5px;
         padding: 1rem;
         cursor: pointer;
-        transition:  all 0.3s ea;
+        transition:  all 0.3s ease-in-out;
+
         &:hover{
           color: #faf6e9;
         }
