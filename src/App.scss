@@ -14,14 +14,15 @@
 }
 
 .navBar{
-  width: 200px;
+  width: 228px;
   height: 100%;
   padding: 10px;
   background-color: #040404;
   .logo{
     
-    padding: 1.5rem 3rem;
+    padding: 1.5rem 0.8rem;
     svg{
+      max-width: 130px;
       p{
         fill: white;
       }
@@ -35,7 +36,8 @@
       color: white;
       list-style-type:none ;
       border-radius: 5px;
-      padding: 1rem;
+      padding: 0.7rem;
+      font-size: 0.9rem;
       cursor: pointer;
       transition:  all 0.3s ease-in-out;
       &:active{
