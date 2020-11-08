@@ -20,6 +20,12 @@ const Nav = () => {
               </li>
             </ul>
 
+            <div className="cookies">
+              <span> Cookies</span>
+              <span> Privacy Policy</span>
+              
+            </div>   
+
           </div>
 
     )

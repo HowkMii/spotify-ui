@@ -15,9 +15,11 @@
 
 .navBar{
   width: 228px;
-  height: 100%;
+  height: calc(100% - 10px);
   padding: 10px;
   background-color: #040404;
+  display: flex;
+  flex-direction: column;
   .logo{
     
     padding: 1.5rem 0.8rem;
@@ -48,8 +50,23 @@
         color: #faf6e9;
       }
     }
+    
+    
+    }
+
 
   }
+  .cookies{
+    font-size: 0.6rem;
+    color: #faf6e9;
+    text-align: center;
+    margin-top: auto;
+    padding: 1rem;
+    span{
+      display: block;
+
+  
+    }
 }
 .misicControls{
   background-color: #282828;
@@ -59,15 +76,7 @@
   align-items: center;
   justify-content: center;
   color: white;
+  z-index: 2;
+  position: relative;
   
-}
-.cookies{
-  font-size: 0.6rem;
-  color: #282828;
-  text-align: center;
-  span{
-    display: block;
-
-  }
-
 }
