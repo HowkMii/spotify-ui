@@ -32,3 +32,4 @@ const Nav = () => {
 
 }
 export default Nav
+//i'm tired i can't learn or coding 
