@@ -4,6 +4,8 @@
   height: calc(100vh - 90px);
   background-color: #131313;
   display: flex;
+  
+ 
 
 }
 
@@ -95,5 +97,12 @@
 }
 .main{
   width: 100%;
+  .mainContent{
+    color: white;
+    padding: 1rem 2rem;
+    h1{
+      font-size: 1.5rem;
+    }
+  }
 
 }
