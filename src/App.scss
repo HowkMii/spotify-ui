@@ -3,6 +3,7 @@
 .App {
   height: calc(100vh - 90px);
   background-color: #131313;
+  display: flex;
 
 }
 
@@ -81,5 +82,18 @@
   
 }
 .upperNav{
+  background-color: #090909;
+  height: 56px;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  align-items: center;
+  color: white;
+  padding: 7px;
+
+
+}
+.main{
+  width: 100%;
 
 }
