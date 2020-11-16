@@ -1,4 +1,6 @@
-
+*{
+  box-sizing: border-box;
+}
 
 .App {
   height: calc(100vh - 90px);
@@ -86,7 +88,7 @@
 .upperNav{
   background-color: #090909;
   height: 50px;
-  width: 100%;
+  
   align-items: center;
   display: flex;
   align-items: center;
