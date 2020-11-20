@@ -1,5 +1,6 @@
 import React from 'react'
 import './App.scss';
+import {ReactComponent as Homeicon} from './svg/home.svg'
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
             </div>
             <ul>
               <li className="active">
+                <Homeicon />
                 Home
               </li>
               <li>
@@ -39,7 +41,7 @@ function App() {
                 <div className="cardsWrap">
                   <div className="card">
                     <div className="cardImage">
-                      <img src="https://images.pexels.com/photos/3854184/pexels-photo-3854184.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Pic"></img>
+                      <img src="https://images.pexels.com/photos/3854184/pexels-photo-3854184.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940x x " alt="Pic"></img>
 
                     </div>
                     <div className="cardContent">
