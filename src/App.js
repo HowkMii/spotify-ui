@@ -1,7 +1,7 @@
 import React from 'react'
 import './App.scss';
 import {ReactComponent as Homeicon} from './svg/home.svg'
-import {ReactComponent as booksicon} from './svg/books.svg'
+import {ReactComponent as Booksicon} from './svg/books.svg'
 
 
 function App() {
@@ -23,6 +23,7 @@ function App() {
                 Search
               </li>
               <li>
+              <Booksicon />
                 Your library
               </li>
             </ul>
