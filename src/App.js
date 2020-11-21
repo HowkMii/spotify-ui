@@ -2,7 +2,7 @@ import React from 'react'
 import './App.scss';
 import {ReactComponent as Homeicon} from './svg/home.svg'
 import {ReactComponent as Booksicon} from './svg/books.svg'
-
+import {ReactComponent as Searchicon} from './svg/search.svg'
 
 function App() {
   return (
@@ -20,6 +20,7 @@ function App() {
                 Home
               </li>
               <li>
+              <Searchicon />
                 Search
               </li>
               <li>
