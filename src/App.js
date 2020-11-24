@@ -4,6 +4,8 @@ import {ReactComponent as Homeicon} from './svg/home.svg'
 import {ReactComponent as Booksicon} from './svg/books.svg'
 import {ReactComponent as Searchicon} from './svg/search.svg'
 
+import {ReactComponent as Playicon} from './svg/play.svg'
+
 function App() {
   return (
     <div className="outerwrap">
@@ -47,12 +49,16 @@ function App() {
                       <img src="https://images.pexels.com/photos/3854184/pexels-photo-3854184.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940x x " alt="Pic"></img>
 
                     </div>
+                    
                     <div className="cardContent">
                       <h3> Like Song</h3>
                      
 
 
                     </div>
+                    <span className="playicon">
+                      <Playicon />
+                    </span>
                   </div>
                 </div>
             </div>

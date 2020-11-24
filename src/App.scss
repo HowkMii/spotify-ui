@@ -48,11 +48,14 @@
       cursor: pointer;
 
       transition:  all 0.3s ease-in-out;
+      display: flex;
+        align-items: center;
       svg{
         fill: currentColor;
         height: 17px;
         width: 17px;
         margin-right: 10px  ;
+        
       }
       &:active{
         background-color: #282828 ;
