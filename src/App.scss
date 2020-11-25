@@ -32,6 +32,7 @@
       max-width: 130px;
       p{
         fill: white;
+        
       }
     } 
   }
@@ -150,4 +151,19 @@
 
     }
   }
+}
+.playicon{
+width: 40px;
+height: 40px;
+border-radius: 50%;
+overflow: hidden;
+display: flex;
+
+svg{
+  margin: auto;
+  
+  width: 40px;
+  height: 40px;
+}
+
 }
