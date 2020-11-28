@@ -42,8 +42,28 @@ function App() {
           <div className="main">
             <div className="upperNav"> test</div>
             <div className="mainContent">
-                <h1>Uniquely yours</h1>
+                
+            <div className="cardsWrap">
+                  <h1>Uniquely yours</h1>
+                  <div className="card">
+                    <div className="cardImage">
+                      <img src="https://images.pexels.com/photos/3854184/pexels-photo-3854184.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940x x " alt="Pic"></img>
+
+                    </div>
+                    
+                    <div className="cardContent">
+                      <h3> Like Song</h3>
+                     
+
+
+                    </div>
+                    <span className="playicon">
+                      <Playicon />
+                    </span>
+                  </div>
+                </div>
                 <div className="cardsWrap">
+                  <h3> Focus</h3>
                   <div className="card">
                     <div className="cardImage">
                       <img src="https://images.pexels.com/photos/3854184/pexels-photo-3854184.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940x x " alt="Pic"></img>
