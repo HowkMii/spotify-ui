@@ -135,6 +135,12 @@
 }
 .cardsWrap{
   padding-bottom: 1rem;
+  h2{
+    margin-bottom: 0;
+  }
+  .subText{
+    margin-top: 0.5rem;
+  }
   .card{
     background-color: #282828;
     border-radius: 10px;
