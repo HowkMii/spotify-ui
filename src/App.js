@@ -72,7 +72,7 @@ function App() {
                     </div>
                     
                     <div className="cardContent">
-                      <h3> Like Song</h3>
+                      <h3>Music for concentration</h3>
                      
 
 

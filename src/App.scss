@@ -60,10 +60,15 @@
         height: 17px;
         width: 17px;
         margin-right: 10px  ;
+
         
       }
       &:active{
         background-color: #282828 ;
+        color: white;
+        svg{
+          fill: white;
+        }
       }
 
       &:hover{
@@ -98,6 +103,7 @@
   color: white;
   z-index: 2;
   position: relative;
+  border-top: 1px solid #040404;
   
 }
 .upperNav{
