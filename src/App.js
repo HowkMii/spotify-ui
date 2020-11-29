@@ -64,6 +64,7 @@ function App() {
                 </div>
                 <div className="cardsWrap">
                   <h3> Focus</h3>
+                  <p className="subText">Music to help you concentrate</p>
                   <div className="card">
                     <div className="cardImage">
                       <img src="https://images.pexels.com/photos/3854184/pexels-photo-3854184.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940x x " alt="Pic"></img>

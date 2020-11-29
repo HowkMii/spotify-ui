@@ -10,6 +10,10 @@
  
 
 }
+.subText{
+  font-size: 0.5rem;
+  color: #b3b3b3;
+}
 
 .outerwrap{
   background-color: gray;
@@ -97,7 +101,7 @@
   
 }
 .upperNav{
-  background-color: #090909;
+  background-color: rgba(9, 9, 9, 0.78);
   height: 50px;
   
   align-items: center;
@@ -118,7 +122,7 @@
   position: relative;
   top: 0;
   z-index: 2;
-  
+
   .mainContent{
     color: white;
     padding: 1rem 2rem;
