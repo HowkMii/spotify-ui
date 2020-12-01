@@ -73,6 +73,7 @@ function App() {
                     
                     <div className="cardContent">
                       <h3>Music for concentration</h3>
+                      <p className="subTextsmall">Music to help you concentrate</p>
                      
 
 
