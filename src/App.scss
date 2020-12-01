@@ -147,12 +147,14 @@
   .subText{
     margin-top: 0.5rem;
   }
+  
   .card{
     background-color: #282828;
     border-radius: 10px;
     width: 180px;
+    height: 260px;
     overflow: hidden;
-    padding: 1.2rem 1.2rem 0.8rem;
+    padding: 1.2rem ;
     position: relative;
     &:hover{
       .playicon{
@@ -190,11 +192,10 @@ width: 40px;
 height: 40px;
 border-radius: 50%;
 overflow: hidden;
-
-
 opacity: 0;
-
-
+position: absolute;
+right: 1.2rem;
+bottom: 1.2rem; 
 svg{
   margin: auto;
   margin-right: auto;
@@ -202,4 +203,7 @@ svg{
   height: 40px;
 }
 
+}
+.subText{
+  font-size: 0.8rem;
 }
